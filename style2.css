@@ -1,0 +1,59 @@
+body{
+  font-family: sans-serif;
+  background-color:white;
+  color: black;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .container  {
+     width: 100%;
+     height: auto;
+  }
+  .berry {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.container{
+  background-color: #fff;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 20px;
+  height: 200px;
+}
+h1{
+  margin-top: 0;
+}
+.berry{
+  background-color: rgba(244, 238, 238, 0.906);
+  width: 105%;
+  flex-direction: column;
+  display: flex;
+  height: 400px;
+  margin-right: 0;
+}
+.head{
+  background-color: gold;
+  height: 50px;
+  width: 400px;
+  position: relative;
+  top: 60px;
+  margin-left: 70px;
+}
+
+.wealth{
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  padding-top: 60px;
+  margin-left: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.highlight{
+  color: rgb(8, 248, 112);
+}
+.huckle{
+  margin: 0%;
+}
